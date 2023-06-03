@@ -1,3 +1,42 @@
+:root {
+    --header-height: 3rem;
+    --font-semi: 600;
+    /*===== Colores =====*/
+    /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
+    /* HSL color mode */
+
+    /*===== Fuente y tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+    /*===== Margenes =====*/
+    --mb-2: 1rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    /*===== z index =====*/
+    --z-back: -10;
+    --z-fixed: 100;
+  }
+
+  @media screen and (min-width: 968px) {
+    :root {
+      --big-font-size: 3.5rem;
+      --h2-font-size: 2rem;
+      --normal-font-size: 1rem;
+      --smaller-font-size: .875rem;
+    }
+  }
+  
+  /*===== BASE =====*/
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }
+  
+
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +67,9 @@ body {
     background-color: lightgreen;
     color: white;
 }
+
+
+
 
 /* styling search box */
 
@@ -61,3 +103,75 @@ input.search-query {
       border: 1px solid #ccc;
     }
   }
+
+
+.home {
+    position: relative;
+    row-gap: 5rem;
+    padding: 4rem 0 5rem;
+}
+
+.intro {
+    align-self: center;
+}
+
+.intro_title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+    
+}
+
+.intro_title-color {
+    color: pink;
+}
+
+
+.section-title {
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+  }
+  
+  .section-title::after {
+    position: absolute;
+    content: '';
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: pink;
+  }
+
+
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  /*===== LAYOUT =====*/
+  .bd-grid {
+    max-width: 1024px;
+    display: grid;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
