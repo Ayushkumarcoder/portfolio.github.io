@@ -92,24 +92,21 @@ input.search-query {
     font-family: 'Courier New', Courier, monospace;
   }
 
-.picture {
-    text-align: right;
 
-}
-
-.picture img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-
-    margin-top: -150px;
-    margin-right: 300px;
-    object-fit: fill;
-    position: relative;
-    overflow: hidden;
-    filter: drop-shadow(10%);
-
-
-
-}
+  .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+    margin-bottom: 220px;
+    margin-right: 220px;
+    
+  }
   
+  .home__blob {
+    fill: rgb(172, 219, 223);
+  }
+  
+  .home__blob-img {
+    width: 360px;
+  }
