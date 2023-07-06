@@ -147,6 +147,30 @@ input.search-query {
     color: chocolate;
   }
 
+  .more-about {
+    
+    
+    align-items: center;
+    width: 60rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px #8b8eaf;
+    color: #aaaaaa;
+    margin-top: 4rem;
+    margin-left: 10rem;
+
+  }
+  .more-about h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+  }
+  .more-about p{
+    line-height: 1.7rem;
+    padding: 0.4rem;
+    color: chocolate;
+  }
+
 
   
 
