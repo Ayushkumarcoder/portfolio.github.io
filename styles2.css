@@ -139,6 +139,7 @@ input.search-query {
 
   .bio h1 {
     margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   .bio p {
